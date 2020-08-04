@@ -1,6 +1,5 @@
 def get_married(person)
     self.partner = person
-    person.partner = self
     if person.class != Person 
       begin 
         raise PartnerError
